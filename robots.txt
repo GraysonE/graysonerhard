@@ -1,0 +1,3 @@
+# START Instantsearch+
+SITEMAP: https://woo.instantsearchplus.com/ext_sitemap?u=a9645070-f825-4814-b7cb-6f3752a7ac0e
+# END Instantsearch+
