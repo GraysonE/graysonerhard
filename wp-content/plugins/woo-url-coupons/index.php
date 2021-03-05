@@ -102,7 +102,7 @@ function ged_hide_coupon_field_on_checkout($enabled)
 
         ged_hide_coupon_field();
 
-    } elseif (floatval(WC()->cart->total) === 0.00) {
+    } elseif (floatval($woocommerce->cart->total) === 0.00) {
 
     	if (is_checkout() ) {
             ged_hide_coupon_field();

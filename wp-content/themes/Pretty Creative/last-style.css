@@ -2469,7 +2469,7 @@ ol, ul {
 		margin-bottom: 200px
 	}
 
-	.woocommerce-cart .entry-header {
+	.woocommerce-cart .entry-header, .woocommerce-checkout .entry-header {
 		margin: 0;
 	}
 
