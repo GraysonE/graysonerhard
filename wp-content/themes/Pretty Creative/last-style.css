@@ -207,9 +207,9 @@ section.related.products h2 {
 	padding: 20px
 }
 
-.page-id-503 .entry-content
+.page-id-503 footer
 {
-	margin-top: -200px
+	display: none;
 }
 
 .home-page-5 div .wrap
@@ -2104,6 +2104,7 @@ ol, ul {
 	{
 		width: 600px;
 		float: right;
+		margin: 0;
 	}
 
 	.home
@@ -2111,12 +2112,13 @@ ol, ul {
 		background: #000 !important;
 	}
 
-	.page-id-503 .site-inner,.page-id-503 .content .entry
+	.page-id-503 .site-inner,
+	.page-id-503 .content .entry
 	{
 		background: transparent;
 		border: none;
 		float: right;
-		margin-right: 100px;
+		margin-top: 150px;
 	}
 }
 
@@ -2533,6 +2535,11 @@ ol, ul {
 		margin-bottom: 0
 	}
 
+	.page-id-503 .featured_image_wrapper
+	{
+		display:none;
+	}
+
 	.page-id-503
 	{
 		background: url(/wp-content/themes/Pretty%20Creative/img/Grayson%20Erhard%20Colorado%20Guitarist%20and%20Singer%20Songwriter%20Pro%20Press.jpg);
@@ -2555,7 +2562,7 @@ ol, ul {
 
 	.page-id-503 .content
 	{
-		width: 100%
+		width: 100%;
 	}
 
 	.page-id-503 article
@@ -2582,9 +2589,10 @@ ol, ul {
 		background: #000;
 	}
 
-	.page-id-503 .site-inner,.page-id-503 .content .entry
+	.page-id-503 .site-inner,
+	.page-id-503 .content .entry
 	{
 		background: transparent;
-		border: none
+		border: none;
 	}
 }
